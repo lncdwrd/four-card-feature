@@ -1,0 +1,21 @@
+// ----------------------------------------
+// BOOTSTRAP
+// ----------------------------------------
+// Overwrite and customize bootstrap code
+//
+
+// MIXINS
+// ----------------------------------------
+// 
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 1110px;
+  padding-right: 32px;
+  padding-left: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Usage
+.custom-container {
+  @include make-container();
+}
